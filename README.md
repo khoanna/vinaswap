@@ -38,14 +38,6 @@ Requirements
 - An Ethereum JSON-RPC provider (Infura, Alchemy or local node)
 - A wallet private key for deployments (use a funded testnet account)
 
-Example environment (.env)
-REACT_APP_RPC_URL="https://eth-goerli.alchemyapi.io/v2/your-key"
-REACT_APP_CHAIN_ID=5
-PRIVATE_KEY="0xYOUR_DEPLOYER_PRIVATE_KEY"
-ETHERSCAN_API_KEY="your-etherscan-api-key"
-CHAINLINK_ORACLE_ADDRESS="0x..."   # per-network oracle address
-API_URL="http://localhost:4000"    # backend (if used)
-
 Install dependencies
 - From repo root (monorepo style):
   - npm install
